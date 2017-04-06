@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@color/bgcolor"
+    android:layout_height="match_parent">
+
+    <!--<RadioGroup-->
+        <!--android:id="@+id/radioCategory"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="@dimen/_20sdp"-->
+
+        <!--&gt;-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/radioPics"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/radio_Pics"-->
+            <!--android:padding="@dimen/_2sdp"-->
+            <!--android:layout_margin="@dimen/_2sdp"-->
+            <!--android:checked="true" />-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/radioVideos"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="@dimen/_2sdp"-->
+            <!--android:layout_margin="@dimen/_2sdp"-->
+
+            <!--android:text="@string/radio_Videos" />-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/radioArticles"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="@dimen/_2sdp"-->
+            <!--android:layout_margin="@dimen/_2sdp"-->
+
+            <!--android:text="@string/radio_Articles" />-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/radioBlog"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="@dimen/_2sdp"-->
+            <!--android:layout_margin="@dimen/_2sdp"-->
+            <!--android:text="@string/radio_Blog" />-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/radioAll"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="@dimen/_2sdp"-->
+            <!--android:layout_margin="@dimen/_2sdp"-->
+            <!--android:text="@string/radio_All" />-->
+
+
+    <!--</RadioGroup>-->
+
+    <ListView
+        android:id="@+id/pupup_category_home_listview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_alignParentTop="true"
+        />
+
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_2sdp"
+            android:layout_margin="@dimen/_2sdp"
+            android:weightSum="2">
+            <TextView
+                android:id="@+id/tvCancel_HomeFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:textColor="@color/bgcolor"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:layout_margin="@dimen/_2sdp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/tvSubmit_HomeFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textColor="@color/bgcolor"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:layout_margin="@dimen/_2sdp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_110sdp"
+        android:background="@color/background_color"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/ivUserImage_LinkRequestFragment"
+                android:layout_width="@dimen/_95sdp"
+                android:layout_height="@dimen/_95sdp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/com_facebook_profile_picture_blank_portrait"/>
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/_110sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tvName_LinkRequestFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:textSize="@dimen/_14sdp"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:text="name"/>
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tvEmail_LinkRequestFragment"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:padding="@dimen/_3sdp"-->
+                    <!--android:textColor="@color/graydark"-->
+                    <!--android:text="name"/>-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tvPhone_LinkRequestFragment"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:padding="@dimen/_3sdp"-->
+                    <!--android:textColor="@color/graydark"-->
+                    <!--android:textSize="@dimen/_12sdp"-->
+                    <!--android:text="name"/>-->
+
+                <TextView
+                    android:id="@+id/tvCategory_LinkRequestFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_45sdp"
+                    android:padding="@dimen/_3sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@color/graydark"
+                    android:text="message"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="2"
+                    android:gravity="center|bottom"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvAcceptRequest_LinkRequestFragment"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.0"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_selector"
+                        android:gravity="center_vertical|center"
+                        android:textSize="@dimen/_16sdp"
+                        android:padding="@dimen/_8sdp"
+                        android:textColor="@color/white"
+                        android:text="@string/accept"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false" />
+                    <Space
+                        android:layout_width="@dimen/_2sdp"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"/>
+                    <TextView
+                        android:id="@+id/tvRejectRequest_LinkRequestFragment"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.0"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_remove"
+                        android:textSize="@dimen/_16sdp"
+                        android:gravity="center"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:textColor="@color/colorAccent"
+                        android:text="@string/reject"
+                        android:focusableInTouchMode="false" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+    android:background="@color/colorAccent"/>
+
+</LinearLayout>

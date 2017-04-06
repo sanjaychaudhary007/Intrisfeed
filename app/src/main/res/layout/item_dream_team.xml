@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/graydark"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        android:background="@color/background_color"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/ivUserImage_DreamTeamFragment"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/com_facebook_profile_picture_blank_portrait"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvName_DreamTeamFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_3sdp"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="name"/>
+
+            <!--<TextView-->
+            <!--android:id="@+id/tvEmail_LinkRequestFragment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="@dimen/_3sdp"-->
+            <!--android:textColor="@color/graydark"-->
+            <!--android:text="name"/>-->
+
+            <TextView
+                android:id="@+id/tvCity_DreamTeamFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_3sdp"
+                android:textColor="@color/graydark"
+                android:textSize="@dimen/_12sdp"
+                android:text="name"/>
+
+            <TextView
+                android:id="@+id/tvCategory_DreamTeamFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_3sdp"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/graydark"
+                android:singleLine="true"
+                android:text="name"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llRemoveFav"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/ivRemoveFav_DreamTeamFragment"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/ic_favourite"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent"/>
+
+</LinearLayout>

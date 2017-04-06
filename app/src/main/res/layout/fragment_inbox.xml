@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvReceivedMail"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:layout_margin="@dimen/_2sdp"
+            android:text="Received"
+            android:textColor="@color/bgcolor"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/tvSentMail"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:textColor="@color/bgcolor"
+            android:padding="@dimen/_5sdp"
+            android:text="Sent"
+            android:textSize="@dimen/_18sdp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvSendMailList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"></ListView>
+
+    <ListView
+        android:id="@+id/lvReceivedMailList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+</LinearLayout>

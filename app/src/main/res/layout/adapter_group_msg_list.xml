@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llReceiverGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/chat_receiver_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp">
+
+        <TextView
+            android:id="@+id/tvreceivedMsgGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:text=""
+            android:textColor="@color/nliveo_black"
+            android:textSize="@dimen/_16sdp" />
+
+        <TextView
+            android:id="@+id/adapter_received_timeGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="@dimen/_5sdp"
+            android:text="date time"
+            android:textColor="@color/graylight"
+            android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSenderGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+
+        android:background="@drawable/chat_sender_bg"
+
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp">
+
+        <TextView
+            android:id="@+id/tvSendMsgGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="@dimen/_10sdp"
+            android:text=""
+            android:textColor="@color/nliveo_black"
+            android:textSize="@dimen/_16sdp" />
+
+        <TextView
+            android:id="@+id/adapter_send_time_Group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:text="date time"
+            android:textColor="@color/graylight"
+            android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/llIVReceiver_Group"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_110sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlSenderImg_Group"
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="@dimen/_130sdp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/_5sdp"
+            android:background="@color/sender_chat_bg"
+            >
+
+            <ImageView
+                android:id="@+id/adpter_iv_image_recived_Group"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:scaleType="centerCrop"
+                 />
+            <TextView
+                android:id="@+id/adapter_send_Imgtime_Group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:background="#80000000"
+                android:text="date time"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10sdp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlReceiverImg_Group"
+
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="@dimen/_130sdp"
+            android:gravity="center"
+
+            android:padding="@dimen/_5sdp"
+            android:orientation="vertical"
+            android:background="@color/white"
+            >
+
+            <ImageView
+                android:id="@+id/adpter_iv_image_sender_Group"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:scaleType="centerCrop"
+                 />
+            <TextView
+                android:id="@+id/adapter_receive_Imgtime_Group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp"
+                android:background="#80000000"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:text="date time"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10sdp" />
+        </RelativeLayout>
+
+        <!--<ImageView-->
+        <!--android:src="@drawable/ic_edit"-->
+        <!--android:padding="@dimen/_40sdp"-->
+        <!--android:id="@+id/adp_iv_download_icon"-->
+        <!--android:visibility="gone"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    </RelativeLayout>
+</LinearLayout>

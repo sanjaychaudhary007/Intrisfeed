@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "254240514767",
+    "firebase_url": "https://intrisfeed.firebaseio.com",
+    "project_id": "intrisfeed",
+    "storage_bucket": "intrisfeed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254240514767:android:3906f95861369f3a",
+        "android_client_info": {
+          "package_name": "com.archi.intrisfeed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254240514767-41hnkgb7870valm75p0iv67qngculgqb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.archi.intrisfeed",
+            "certificate_hash": "CF29293FA769E8171B622568CE0395E8B2C1A226"
+          }
+        },
+        {
+          "client_id": "254240514767-slkc46o3u22ceimbdqkq2rbb2qtsvao9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhtXytbV9EvKbEkdhkIbffmy-p6pg1UGg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254240514767-slkc46o3u22ceimbdqkq2rbb2qtsvao9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

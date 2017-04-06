@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Intrisfeed</string>
+    <string name="logout_note">Are you really wan\'t to Logout from App?</string>
+    <string name="crash_toast_text">Application crash, Please send mail to notify error.</string>
+    <string name="select_string">Select Category</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="Linkrequest">Link Request</string>
+    <string name="chatting">Chatting</string>
+    <string name="inbox">Inbox</string>
+    <string name="sharing">Sharing</string>
+    <string name="filter">Filter</string>
+    <string name="social_networks">Social Networks</string>
+
+    // menu items
+    <string name="Browse">Browse</string>
+    <string name="Link">Link Request</string>
+    <string name="Chatting">Chatting</string>
+    <string name="Inbox">Inbox</string>
+    <string name="Sharing">Sharing</string>
+    <string name="Filters">Filters</string>
+    <string name="SocialNetworks">Social Networks</string>
+    <string name="Logout">Logout</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="send_request">Send Request</string>
+    <string name="facebook_app_id">123456</string>
+    <string name="share">Share</string>
+    <string name="reject">Reject</string>
+    <string name="msg_note">What\'s on your mind?</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Image</string>
+    <string name="video">Video</string>
+    <string name="post">Post Feed</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="new_user">New user</string>
+    <string name="comment">Comment</string>
+    <string name="city">City</string>
+    <string name="contry">Contry</string>
+    <string name="country">Country</string>
+    <string name="home">Home</string>
+    <string name="become_content_author">Get Paid to be a Content Author!</string>
+    <string name="category">Category</string>
+    <string name="add_more">Add More</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="enter_content">Enter Content</string>
+    <string name="category_approved">Enter Approved Category</string>
+    <string name="title">Type Title Here</string>
+    <string name="content">Type Content Here</string>
+    <string name="link_content">Enter Link Here</string>
+    <string name="upload_content">Upload Content</string>
+    <string name="feed">Dreamfeed</string>
+    <string name="send">Send</string>
+    <string name="message">Write Message Here</string>
+    <string name="search">Search Category Here</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="add_video">Select Video => </string>
+    <string name="add_document">Select Document => </string>
+    <string name="Interisfeed">Intrisfeed</string>
+    <string name="content_author">Content Author</string>
+    <string name="radio_Pics">Pics</string>
+    <string name="radio_Videos">Videos</string>
+    <string name="radio_Articles">Articles</string>
+    <string name="radio_Blog">Blogs</string>
+    <string name="radio_All">All</string>
+    <string name="add_image">Select Image =></string>
+    <string name="DreamTeam">Dream Team</string>
+    <string name="something_went_wrong">something went to wrong</string>
+    <string name="author">Author content</string>
+    <string name="enter_authors_search_keyword">enter category</string>
+    <string name="Title">Title</string>
+    <string name="auther_detail">Auther details</string>
+    <string name="content_detail">Detail</string>
+    <string name="content_link">Link</string>
+    <string name="content_auther_email">email</string>
+    <string name="close">Close</string>
+    <string name="setting">Setting</string>
+    <string name="update">Update</string>
+    <string name="Change_password">Change Password</string>
+    <string name="category_intrest">Interests</string>
+    <string name="image">Image</string>
+    <string name="Video">Video</string>
+    <string name="Doc">Doc</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/home</item>
+        <item>@string/Browse</item>
+        <item>@string/Link</item>
+        <item>@string/Chatting</item>
+        <item>@string/DreamTeam</item>
+        <item>@string/Inbox</item>
+        <item>@string/feed</item>
+        <item>@string/author</item>
+        <item>@string/Interisfeed</item>
+        <item>@string/SocialNetworks</item>
+        <item>@string/setting</item>
+        <item>@string/Logout</item>
+    </string-array>
+
+    <string-array name="category_list">
+        <item>@string/radio_Videos</item>
+        <item>@string/radio_Pics</item>
+        <item>@string/radio_Articles</item>
+        <item>@string/radio_Blog</item>
+        <item>@string/radio_All</item>
+    </string-array>
+
+</resources>

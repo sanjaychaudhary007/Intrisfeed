@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/fragment_setting_fram"
+        android:background="@color/colorAccent"
+        android:layout_height="@dimen/_200sdp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/fragment_setting_iv_profile"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            app:civ_border_width="4dp"
+            android:layout_gravity="center"
+            android:padding="@dimen/_2sdp"
+            app:civ_border_color="#e5e7e9"
+            android:src="@drawable/com_facebook_profile_picture_blank_portrait" />
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_width="@dimen/_40sdp"
+            android:src="@drawable/ic_edit_white"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_setting_iv_pick_image"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/fragment_setting_tv_name"
+            android:textColor="@color/white"
+            android:text="Author name"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:drawableRight="@drawable/ic_edit_text"
+            android:textSize="@dimen/_15sdp"
+            android:layout_gravity="bottom"
+            />
+
+
+
+
+    </FrameLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/fragment_setting_email"
+        android:layout_below="@+id/fragment_setting_fram"
+        android:background="@drawable/edittext_shadow"
+        android:layout_margin="@dimen/_30sdp"
+        android:layout_height="@dimen/_40sdp">
+        <TextView
+            android:text="@string/email"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:id="@+id/activity_content_author_detail_tv_author_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:text="autor email"
+            android:layout_marginLeft="@dimen/_11sdp"
+            android:id="@+id/fragment_setting_tv_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <Button
+        android:visibility="gone"
+        android:background="@drawable/btnpressed"
+        android:layout_width="match_parent"
+        android:text="@string/Change_password"
+        android:id="@+id/fragment_setting_change_password"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textColor="@color/background_color"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_below="@+id/fragment_setting_email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        />
+
+    <Button
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:text="@string/update"
+        android:id="@+id/fragment_setting_btn_update"
+        android:textColor="@color/background_color"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+</RelativeLayout>

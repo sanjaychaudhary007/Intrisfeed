@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:float="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:orientation="vertical"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_header"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/colorAccent">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="Signup"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_25sdp" />
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/_20sdp"
+            android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:background="@color/background_color">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ivProfileImage"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:src="@drawable/ic_user"
+                android:layout_centerHorizontal="true"
+                app:civ_border_width="4dp"
+                app:civ_border_color="#FFFFFF"/>
+            <ImageView
+                android:id="@+id/ivSelectImage"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/ic_edit"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textSize="@dimen/_14sdp"
+                android:padding="@dimen/_5sdp"/>
+            <EditText
+                android:id="@+id/etName_Signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/_5sdp"
+                android:padding="10dp"
+                android:hint="Enter Your Name"
+                android:imeOptions="actionNext"
+                android:background="@drawable/edittext_shadow"
+                android:inputType="text"
+                android:textSize="@dimen/_18sdp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/city"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textSize="@dimen/_14sdp"
+                android:padding="@dimen/_5sdp"/>
+            <EditText
+                android:id="@+id/etCity_Signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/_5sdp"
+                android:padding="10dp"
+                android:hint="Enter City"
+                android:imeOptions="actionNext"
+                android:background="@drawable/edittext_shadow"
+                android:inputType="text"
+                android:textSize="@dimen/_18sdp"
+               />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/country"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textSize="@dimen/_14sdp"
+                android:padding="@dimen/_5sdp"/>
+            <EditText
+                android:id="@+id/etCountry_Signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/_5sdp"
+                android:padding="10dp"
+                android:hint="Enter Country"
+                android:imeOptions="actionNext"
+                android:background="@drawable/edittext_shadow"
+                android:inputType="text"
+                android:textSize="@dimen/_18sdp" />
+
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/phone"-->
+                <!--android:textSize="@dimen/_14sdp"-->
+                <!--android:layout_marginTop="@dimen/_10sdp"-->
+                <!--android:padding="@dimen/_5sdp"/>-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/etPhone_Signup"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:drawablePadding="@dimen/_5sdp"-->
+                <!--android:hint="Enter Your Phone Number"-->
+                <!--android:imeOptions="actionDone"-->
+                <!--android:inputType="number"-->
+                <!--android:background="@drawable/edittext_shadow"-->
+                <!--android:padding="10dp"-->
+
+                <!--android:textSize="@dimen/_18sdp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:padding="@dimen/_5sdp"/>
+            <EditText
+                android:id="@+id/etEmail_Signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/_5sdp"
+                android:padding="10dp"
+                android:hint="Enter Your Email"
+                android:imeOptions="actionNext"
+                android:background="@drawable/edittext_shadow"
+                android:inputType="textEmailAddress"
+                android:textSize="@dimen/_18sdp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:padding="@dimen/_5sdp"/>
+            <EditText
+                android:id="@+id/etPassword_Signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/_5sdp"
+                android:hint="Enter Your Password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:background="@drawable/edittext_shadow"
+                android:padding="10dp"
+                android:textSize="@dimen/_18sdp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm_password"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:padding="@dimen/_5sdp"/>
+            <EditText
+                android:id="@+id/etConfirmPassword_Signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/_5sdp"
+                android:hint="Confirm Password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:background="@drawable/edittext_shadow"
+                android:padding="10dp"
+                android:textSize="@dimen/_18sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Interest Category"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:padding="@dimen/_5sdp"/>
+
+            <com.guna.libmultispinner.MultiSelectionSpinner
+                android:id="@+id/categorySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+
+                android:background="@drawable/edittext_shadow"
+                android:layout_marginTop="@dimen/_10sdp"/>
+
+                <Button
+                    android:id="@+id/btSignup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/button_round_corner"
+                    android:text="SignUp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18sdp" />
+        </LinearLayout>
+    </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

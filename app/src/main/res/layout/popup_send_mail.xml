@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_5sdp"
+    android:background="@color/bgcolor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="11"
+        android:layout_margin="@dimen/_2sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="From"
+            android:textSize="@dimen/_16sdp" />
+
+        <EditText
+            android:id="@+id/etFromContentAuthorMailId"
+            android:layout_width="match_parent"
+            android:layout_weight="8"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_4sdp"
+            android:lines="1"
+            android:singleLine="true"
+            android:background="@drawable/edittext_shadow"
+            android:padding="@dimen/_10sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/_2sdp"
+        android:weightSum="11">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:padding="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="Subject"
+            android:textSize="@dimen/_16sdp" />
+
+        <EditText
+            android:id="@+id/etSubjectContentAuthor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_4sdp"
+            android:layout_weight="8"
+            android:lines="1"
+            android:singleLine="true"
+            android:background="@drawable/edittext_shadow"
+            android:padding="@dimen/_10sdp" />
+    </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:text="Description"
+            android:textSize="@dimen/_16sdp" />
+
+        <EditText
+            android:id="@+id/tvDescriptionSendMailPopup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_4sdp"
+            android:background="@drawable/edittext_shadow"
+            android:cursorVisible="true"
+            android:minLines="5"
+            android:padding="@dimen/_10sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvCancelPopup"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/bgcolor"
+            android:text="Cancel"
+            android:gravity="center"
+            android:textSize="@dimen/_14sdp"
+            android:padding="@dimen/_7sdp"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvSendMailPopup"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/bgcolor"
+            android:text="Send"
+            android:padding="@dimen/_7sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:textSize="@dimen/_14sdp"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

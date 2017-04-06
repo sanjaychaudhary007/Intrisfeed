@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_5sdp"
+                android:padding="@dimen/_5sdp"
+                android:background="@drawable/edittext_shadow">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_35sdp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_border"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:id="@+id/etCategoryName1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/edittext_border"
+                                android:gravity="center"
+                                android:hint="Type In Keyword"
+                                android:padding="@dimen/_7sdp"
+                                android:textSize="@dimen/_12sdp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:text="For Feed# 1"
+                                android:textColor="@color/nliveo_black"
+                                android:textSize="@dimen/_12sdp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorAccent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tvEnter_Feed1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_5sdp"
+                                android:background="@drawable/edittext_border"
+                                android:gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:text="View"
+                                android:textColor="@color/nliveo_black" />
+
+                            <!--<TextView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_margin="@dimen/_5sdp"-->
+                            <!--android:background="@drawable/edittext_border"-->
+                            <!--android:gravity="center"-->
+                            <!--android:padding="@dimen/_5sdp"-->
+                            <!--android:text="View"-->
+                            <!--android:textColor="@color/nliveo_black" />-->
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/flDropDownKeyword1"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_centerHorizontal="true">
+
+                    <ImageView
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:src="@drawable/ic_down" />
+
+                </FrameLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/edittext_shadow">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_35sdp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_border"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:id="@+id/etCategoryName2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/edittext_border"
+                                android:gravity="center"
+                                android:hint="Type In Keyword"
+                                android:padding="@dimen/_7sdp"
+                                android:textSize="@dimen/_12sdp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:text="For Feed# 2"
+                                android:textColor="@color/nliveo_black"
+                                android:textSize="@dimen/_12sdp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorAccent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tvEnter_Feed2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_5sdp"
+                                android:background="@drawable/edittext_border"
+                                android:gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:text="View"
+                                android:textColor="@color/nliveo_black" />
+
+                            <!--<TextView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_margin="@dimen/_5sdp"-->
+                            <!--android:background="@drawable/edittext_border"-->
+                            <!--android:gravity="center"-->
+                            <!--android:padding="@dimen/_5sdp"-->
+                            <!--android:text="View"-->
+                            <!--android:textColor="@color/nliveo_black" />-->
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/flDropDownKeyword2"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_centerHorizontal="true">
+
+                    <ImageView
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:src="@drawable/ic_down" />
+
+                </FrameLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/edittext_shadow">
+
+                <LinearLayout
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_35sdp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_border"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:id="@+id/etCategoryName3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/edittext_border"
+                                android:gravity="center"
+                                android:hint="Type In Keyword"
+                                android:padding="@dimen/_7sdp"
+                                android:textSize="@dimen/_12sdp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:text="For Feed# 3"
+                                android:textColor="@color/nliveo_black"
+                                android:textSize="@dimen/_12sdp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorAccent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tvEnter_Feed3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_5sdp"
+                                android:background="@drawable/edittext_border"
+                                android:gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:text="View"
+                                android:textColor="@color/nliveo_black" />
+
+                            <!--<TextView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_margin="@dimen/_5sdp"-->
+                            <!--android:background="@drawable/edittext_border"-->
+                            <!--android:gravity="center"-->
+                            <!--android:padding="@dimen/_5sdp"-->
+                            <!--android:text="View"-->
+                            <!--android:textColor="@color/nliveo_black" />-->
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/flDropDownKeyword3"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_centerHorizontal="true">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:src="@drawable/ic_down" />
+
+                </FrameLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/edittext_shadow">
+
+                <LinearLayout
+                    android:layout_width="@dimen/_150sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_35sdp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_border"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:id="@+id/etCategoryName4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/edittext_border"
+                                android:gravity="center"
+                                android:hint="Type In Keyword"
+                                android:padding="@dimen/_7sdp"
+                                android:textSize="@dimen/_12sdp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:text="For Feed# 4"
+                                android:textColor="@color/nliveo_black"
+                                android:textSize="@dimen/_12sdp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorAccent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tvEnter_Feed4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_5sdp"
+                                android:background="@drawable/edittext_border"
+                                android:gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:text="View"
+                                android:textColor="@color/nliveo_black" />
+
+                            <!--<TextView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_margin="@dimen/_5sdp"-->
+                            <!--android:background="@drawable/edittext_border"-->
+                            <!--android:gravity="center"-->
+                            <!--android:padding="@dimen/_5sdp"-->
+                            <!--android:text="View"-->
+                            <!--android:textColor="@color/nliveo_black" />-->
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/flDropDownKeyword4"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_centerHorizontal="true">
+
+                    <ImageView
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:src="@drawable/ic_down" />
+
+                </FrameLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/edittext_shadow">
+
+                <LinearLayout
+                    android:layout_width="@dimen/_150sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_35sdp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_border"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:id="@+id/etCategoryName5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/edittext_border"
+                                android:gravity="center"
+                                android:hint="Type In Keyword"
+                                android:padding="@dimen/_7sdp"
+                                android:textSize="@dimen/_12sdp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:text="For Feed# 5"
+                                android:textColor="@color/nliveo_black"
+                                android:textSize="@dimen/_12sdp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorAccent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tvEnter_Feed5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_5sdp"
+                                android:background="@drawable/edittext_border"
+                                android:gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:text="View"
+                                android:textColor="@color/nliveo_black" />
+
+                            <!--<TextView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_margin="@dimen/_5sdp"-->
+                            <!--android:background="@drawable/edittext_border"-->
+                            <!--android:gravity="center"-->
+                            <!--android:padding="@dimen/_5sdp"-->
+                            <!--android:text="View"-->
+                            <!--android:textColor="@color/nliveo_black" />-->
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/flDropDownKeyword5"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_centerHorizontal="true">
+
+                    <ImageView
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:src="@drawable/ic_down" />
+
+                </FrameLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/edittext_shadow">
+
+                <LinearLayout
+                    android:layout_width="@dimen/_150sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_35sdp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_border"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:id="@+id/etCategoryName6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/edittext_border"
+                                android:gravity="center"
+                                android:hint="Type In Keyword"
+                                android:padding="@dimen/_7sdp"
+                                android:textSize="@dimen/_12sdp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:text="For Feed# 6"
+                                android:textColor="@color/nliveo_black"
+                                android:textSize="@dimen/_12sdp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorAccent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tvEnter_Feed6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_5sdp"
+                                android:background="@drawable/edittext_border"
+                                android:gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:text="View"
+                                android:textColor="@color/nliveo_black" />
+
+                            <!--<TextView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_margin="@dimen/_5sdp"-->
+                            <!--android:background="@drawable/edittext_border"-->
+                            <!--android:gravity="center"-->
+                            <!--android:padding="@dimen/_5sdp"-->
+                            <!--android:text="View"-->
+                            <!--android:textColor="@color/nliveo_black" />-->
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/flDropDownKeyword6"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_centerHorizontal="true">
+
+                    <ImageView
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:src="@drawable/ic_down" />
+
+                </FrameLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/edittext_shadow">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_35sdp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_border"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:id="@+id/etCategoryName7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/edittext_border"
+                                android:gravity="center"
+                                android:hint="Type In Keyword"
+                                android:padding="@dimen/_7sdp"
+                                android:textSize="@dimen/_12sdp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:text="For Feed# 7"
+                                android:textColor="@color/nliveo_black"
+                                android:textSize="@dimen/_12sdp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorAccent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tvEnter_Feed7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_5sdp"
+                                android:background="@drawable/edittext_border"
+                                android:gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:text="View"
+                                android:textColor="@color/nliveo_black" />
+
+                            <!--<TextView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_margin="@dimen/_5sdp"-->
+                            <!--android:background="@drawable/edittext_border"-->
+                            <!--android:gravity="center"-->
+                            <!--android:padding="@dimen/_5sdp"-->
+                            <!--android:text="View"-->
+                            <!--android:textColor="@color/nliveo_black" />-->
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/flDropDownKeyword7"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_centerHorizontal="true">
+
+                    <ImageView
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/ic_down" />
+
+                </FrameLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+        <!--<ListView-->
+            <!--android:id="@+id/lvAllFeedList"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginBottom="@dimen/_10sdp"-->
+            <!--android:layout_marginTop="@dimen/_10sdp"></ListView>-->
+
+    </LinearLayout>
+</ScrollView>

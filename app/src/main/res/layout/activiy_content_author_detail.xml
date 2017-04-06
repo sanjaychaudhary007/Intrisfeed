@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_height="@dimen/_40sdp" >
+
+     <ImageView
+         android:layout_marginLeft="@dimen/_10sdp"
+         android:src="@drawable/ic_back"
+         android:id="@+id/activity_content_authore_back"
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent" />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/bgcolor"
+            android:textSize="@dimen/_20sdp"
+            android:text="@string/auther_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/Category"
+                android:text="@string/category"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView04"
+                android:text="@string/Title"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+
+        </TableRow>
+        <ListView
+            android:layout_width="match_parent"
+            android:id="@+id/activity_author_detail_contain_lv"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:divider="@null"
+            android:layout_height="@dimen/_200sdp">
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:background="@color/background_color"
+        android:layout_height="wrap_content">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="By :"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/_30sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+            <TextView
+                android:text="Bysgsdgg :"
+                android:gravity="center"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/nliveo_black"
+                android:id="@+id/activity_auther_detail_tv_auther_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />sg
+
+
+
+        </FrameLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/activity_content_auther_detail_iv_auther"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/_2sdp"
+            android:src="@drawable/com_facebook_profile_picture_blank_portrait" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/activity_content_auther_detail_email_send"
+        android:layout_gravity="bottom"
+        android:background="@color/colorAccent"
+        android:layout_height="@dimen/_40sdp">
+        <TextView
+            android:text="@string/email"
+            android:gravity="center"
+            android:textColor="@color/background_color"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:id="@+id/activity_content_author_detail_tv_author_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:text="autor email"
+
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/_11sdp"
+            android:id="@+id/activity_content_author_detail_tv_author_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+</LinearLayout>

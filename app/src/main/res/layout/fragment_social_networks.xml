@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvFacebook"
+            android:layout_width="@dimen/_190sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawableRight="@drawable/ic_facebook"
+            android:text="Share On Facebook"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_12sdp"
+            android:padding="@dimen/_5sdp"
+            android:gravity="center"
+            android:background="@color/background_color"
+            android:layout_margin="@dimen/_12sdp"/>
+
+
+        <TextView
+            android:id="@+id/tvTwitter"
+            android:layout_width="@dimen/_190sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawableRight="@drawable/ic_twitter"
+            android:text="Share On Twitter"
+            android:padding="@dimen/_5sdp"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:background="@color/background_color"
+            android:layout_margin="@dimen/_12sdp"/>
+
+        <TextView
+            android:id="@+id/tvGooglePluse"
+            android:layout_width="@dimen/_190sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawableRight="@drawable/ic_googleplus"
+            android:text="Share On Google+"
+            android:textSize="@dimen/_12sdp"
+            android:padding="@dimen/_5sdp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:background="@color/background_color"
+            android:layout_margin="@dimen/_12sdp"/>
+
+
+        <TextView
+            android:id="@+id/tvPinterest"
+            android:layout_width="@dimen/_190sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawableRight="@drawable/ic_pinterest"
+            android:text="Share On Pinterest"
+            android:textSize="@dimen/_12sdp"
+            android:padding="@dimen/_5sdp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:background="@color/background_color"
+            android:layout_margin="@dimen/_12sdp"/>
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvYouTube"-->
+            <!--android:layout_width="@dimen/_190sdp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:drawableRight="@drawable/ic_youtube"-->
+            <!--android:text="Share On YouTube"-->
+            <!--android:textSize="@dimen/_12sdp"-->
+            <!--android:padding="@dimen/_5sdp"-->
+            <!--android:textColor="@color/colorAccent"-->
+            <!--android:gravity="center"-->
+            <!--android:background="@color/background_color"-->
+            <!--android:layout_margin="@dimen/_12sdp"/>-->
+
+</LinearLayout>
